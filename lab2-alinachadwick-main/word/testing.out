@@ -1,0 +1,28 @@
+# Alina Chadwick
+# CS50 Lab 2
+# Professor Kotz
+# test code for the words.c file
+
+# testing a file that already exists
+./word wordfile.sh
+This
+is
+my
+file.
+Just
+a
+test.
+That
+is
+all.
+ÿ
+# testing an input
+echo "This is my sentence" | ./word
+This
+is
+my
+sentence
+ÿ
+# testing a "-" file
+./word -
+ÿno more stdin
